@@ -62,6 +62,8 @@ public class RNJitsiMeetModule extends ReactContextBaseJavaModule {
                             .setFeatureFlag("video-share.enabled", false)
                             .setFeatureFlag("close-captions.enabled", false)
                             .setFeatureFlag("chat.enabled", true)
+                            .setFeatureFlag("call-integration.enabled", false)
+                            .setFeatureFlag("resolution", 360)
                             .setFeatureFlag("live-streaming.enabled", false)
                             .setFeatureFlag("meeting-name.enabled", false)
                             .setFeatureFlag("meeting-password.enabled", false)
