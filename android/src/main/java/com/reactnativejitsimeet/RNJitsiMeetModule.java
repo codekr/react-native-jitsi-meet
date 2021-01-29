@@ -57,6 +57,7 @@ public class RNJitsiMeetModule extends ReactContextBaseJavaModule {
                             .setRoom(url)
                             .setAudioOnly(false)
                             .setUserInfo(_userInfo)
+                            .setFeatureFlag("resolution", 480)
                             .setFeatureFlag("add-people.enabled", false)
                             .setFeatureFlag("raise-hand.enabled", false)
                             .setFeatureFlag("video-share.enabled", false)
